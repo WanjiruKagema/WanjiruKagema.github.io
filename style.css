@@ -2,6 +2,8 @@
     height: 100%;
     scroll-behavior: smooth;
 }
+
+ 
 .index-bg{
     background: url(Images/homebg.jpg) no-repeat center fixed;
     background-size: cover;
@@ -68,6 +70,18 @@
                 
             }
 
+            .about-bg{
+                background-color: #2F2E35;
+            }
+
+        .contactus-bg{
+            background: url(Images/Contact_Us\ 1.png) no-repeat center; 
+            position: absolute;
+            width: 700px;
+            height: 1080px;
+            left: 0px;
+            float: left;
+        }
 .body{
    margin: 0;
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -90,6 +104,7 @@
     left: 642px;
     top: 218px;    
 }
+
 
 .hero_content{
 position: absolute;
@@ -328,7 +343,7 @@ left: 900px;
 top: -30px;
 }
 
-.heading{
+.heading-castile{
 position: absolute;
 width: 740px;
 height: 136px;
@@ -510,3 +525,87 @@ font-size: 20px;
                 font-size: 17px;
                 color: #D4AC3E;
                 }
+
+.container{
+position: fixed;
+width: 1060px;
+height: 763px;
+left: 190px;
+top: 68px;
+}
+
+.heading{
+position: absolute;
+width: 141px;
+height: 38px;
+left: 500px;
+top: 30px;
+font-family: Avenir LT Std;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: #D4AC3E;
+}
+
+.shop-name{
+position: absolute;
+width: 450px;
+height: 67px;
+left: 350px;
+top: 50px;
+font-family: Avenir LT Std;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 67px;
+text-align: center;
+color: #D4AC3E;
+}
+
+.places{
+position: absolute;
+width: 569px;
+height: 31px;
+left: 300px;
+top: 160px;
+font-family: Avenir LT Std;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+color: #F2F2F2
+}
+
+.text-info{
+position: absolute;
+width: 1060px;
+height: 520px;
+left: 80px;
+top: 230px;
+font-family: Avenir LT Std;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.heading-2{
+position: absolute;
+width: 186px;
+height: 38px;
+left: 812px;
+top: 166px;
+font-family: Avenir LT Std;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+
+
+}
