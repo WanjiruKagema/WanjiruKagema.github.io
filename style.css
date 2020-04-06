@@ -769,7 +769,6 @@ button {
     height: 100%;
     width: 400px;
     position: absolute;
-    z-index: 1;
     top: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
@@ -807,11 +806,11 @@ button {
     float: right;
     width: inherit;
     position: absolute;
-    width: 100px;
-    height: 110.54px;
-    left: 1300px;
+    width: 80;
+    height:80;
+    left: 1400px;
     top: 10px;
-    background-color: white;
+    background-color: transparent;
   }
 
 .openbtn:hover {
