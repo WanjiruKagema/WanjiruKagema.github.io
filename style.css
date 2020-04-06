@@ -794,7 +794,7 @@ button {
 .sidebar .closebtn {
     position: absolute;
     top: 0;
-    right: 30px;
+    right: 5px;
     font-size: 36px;
     margin-right: 50px;
 }
