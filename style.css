@@ -794,7 +794,7 @@ button {
 .sidebar .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 30px;
     font-size: 36px;
     margin-right: 50px;
 }
@@ -806,8 +806,8 @@ button {
     float: right;
     width: inherit;
     position: absolute;
-    width: 80;
-    height:80;
+    width: 50;
+    height:50;
     left: 1400px;
     top: 10px;
     background-color: transparent;
