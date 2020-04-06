@@ -1,78 +1,120 @@
 @media (max-width: 900px) {
-    .html, body {
-        height: 100%;
-        scroll-behavior: smooth;
-        margin: 0;
-        font-family: 'Libre Franklin', sans-serif;
+    .html, body{
+       height: 100%;
+       overflow-x: hidden !important;
+       scroll-behavior: smooth;
+    
     }
     .index-bg {
         background: url(Images/homebg.jpg) no-repeat center fixed;
         background-size: cover;
         min-height: 100%;
+        overflow-x: hidden !important;
         background-color: #2F2E35;
     }
     .pureing-bg {
         background: url(Images/Bacgground\ image\ page\ 2.jpg) no-repeat center fixed;
         background-size: cover;
         background-attachment: fixed;
+        overflow-x: hidden !important;
     }
     .castile-bg {
         background: url(Images/castile-bg.jpg) no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden !important;
     }
     .mintandmaycheng-bg {
         background: url(Images/Background\ Image\ Page\ 4\ $\ 5.jpg) no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden !important;
     }
     .sheasoap-bg {
         background: url(Images/Background\ Image\ page\ 6.jpg) no-repeat center fixed;
         background-size: cover;
+        background-color: #2F2E35;
+      overflow-x: hidden !important;
+
     }
     .cederwood-bg {
         background: url(Images/cederwood\ background.jpg) no-repeat center fixed;
         background-size: cover;
+        background-color: #2F2E35;
+        overflow-x: hidden !important;
     }
     .cocoabutter-bg {
         background: url(Images/cocoabuttersoap-bg.png) no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden !important;
         background-color: #2F2E35;
     }
     .africanblacksoap-bg {
         background: url(Images/blacksoap-bg.jpg) no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden !important;
     }
     .lipbalm-bg {
         background: url(Images/lipbalm-bg.jpg) no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden !important;
     }
     .oils-bg {
         background: url(Images/oils-bg.png) no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden !important;
     }
     .butters-bg {
         background: url(Images/butters-bg.png) no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden !important;
     }
     .coconutoil-bg {
         background: url(Images/coconutoil-bg.png) no-repeat center fixed;
         background-size: cover;
+        overflow-x: hidden !important;
     }
     .about-bg {
         background-color: #2F2E35;
+        overflow-x: hidden !important;
+    }
+
+    .hotel-bg{
+    background: url(Images/header\ 1.png) no-repeat center;
+    margin-top: 250px;
+    overflow-x: hidden !important;
+    }
+
+    .contact-bg{
+        background: url(Images/Contact_Us\ 1.png) no-repeat center;
+        margin-top: 400px;
+        overflow-x: hidden !important;
+    }
+
+    .image-bg{
+        display: none;
+    }
+
+.logo_2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+    .header-image{
+        display: none;
     }
     .body {
         margin: 0;
-        font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
         overflow-y: scroll;
+       
     }
     .wrapper {
-        width: 50%;
-        max-width: 90rem;
-        margin: 0 auto;
-        min-height: 10rem;
-        border-left: 1px;
-        border-right: 1px;
-        box-sizing: border-box;
+    width: 50%;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 10rem;
+    border-left: 1px;
+    border-right: 1px;
+    box-sizing: border-box;
     }
     .hero_logo {
         position: absolute;
@@ -90,8 +132,7 @@
         font-size: 19px;
     }
     a {
-        color: #E0E0E0;
-
+        color:  #444343;
         text-decoration: none;
     }
     a:hover {
@@ -153,7 +194,7 @@
         position: absolute;
         width: 280px;
         height: 34px;
-        left: 20px;
+        left: 50px;
         top: 900px;
         font-family: Avenir LT Std;
         font-style: normal;
@@ -313,52 +354,7 @@
         text-align: center;
         color: #FFFFFF;
     }
-    .image-container {
-        position: absolute;
-        width: 280px;
-        height: 302px;
-        left: 40px;
-        top: 820px;
-    }
-    .image-heading {
-        position: absolute;
-        width: 300px;
-        height: 67px;
-        left: 60px;
-        top: 1420px;
-        font-family: Avenir LT Std;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 35px;
-        line-height: 35px;
-        color: #D4AC3E;
-    }
-    .image-text {
-        position: absolute;
-        width: 320px;
-        height: 125px;
-        left: 30px;
-        top: 1480px;
-        font-family: Avenir LT Std;
-        font-style: normal;
-        font-weight: 0;
-        font-size: 20px;
-        line-height: 30px;
-        color: #FFFFFF;
-    }
-    .shop-icon-1 {
-        position: absolute;
-        width: 100px;
-        height: 32px;
-        left: 130px;
-        top: 1980px;
-        font-family: Avenir LT Std;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 25px;
-        color: #D4AC3E;
-    }
+ 
     .shop-icon-4 {
         position: absolute;
         width: 73px;
@@ -400,28 +396,27 @@
         position: absolute;
         width: 280px;
         height: 302px;
-        left: -20px;
-        top: 1000px;
+        left: 60px;
+        top: 700px;
     }
     .shea-soap-category-heading {
         position: absolute;
-        width: 300px;
+        width: 330px;
         height: 67px;
         left: 30px;
-        top: 1280px;
-        font-family: Avenir LT Std;
+        top: 1000px;
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 30px;
         color: #D4AC3E;
     }
     .shea-soap-category-text {
         position: absolute;
         width: 320px;
         height: 75px;
-        left: 40px;
-        top: 1340px;
+        left: 30px;
+        top: 1050px;
         font-family: Avenir LT Std;
         font-style: normal;
         font-weight: 0;
@@ -429,32 +424,32 @@
         line-height: 25px;
         color: #FFFFFF;
     }
-    .shop-icon-2 {
+    .shop-icon-1 {
         position: absolute;
         width: 300px;
         height: 32px;
         left: 100px;
-        top: 1650px;
+        top: 1300px;
         font-size: 30px;
     }
     .image-container {
         position: absolute;
         width: 280px;
         height: 302px;
-        left: 90px;
-        top: 900px;
+        left: 50px;
+        top: 800px;
     }
     .image-heading {
         position: absolute;
         width: 300px;
         height: 67px;
         left: 50px;
-        top: 1500px;
+        top: 1450px;
         font-family: Avenir LT Std;
         font-style: normal;
         font-weight: bold;
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 30px;
+        line-height: 30px;
         color: #D4AC3E;
     }
     .image-text {
@@ -462,7 +457,7 @@
         width: 301px;
         height: 125px;
         left: 40px;
-        top: 1620px;
+        top: 1490px;
         font-family: Avenir LT Std;
         font-style: normal;
         font-weight: 0;
@@ -479,6 +474,150 @@
         font-size: 20px;
         color: #D4AC3E;
     }
+
+    .image-container-2{
+        position: absolute;
+        width: 280px;
+        height: 300px;
+        left: 30px;
+        top: 1000px;
+    }
+    .image-heading-2 {
+        position: absolute;
+        width: 300px;
+        height: 67px;
+        left: 60px;
+        top: 1300px;
+        font-family: Avenir LT Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 35px;
+        color: #D4AC3E;
+    }
+    .image-text-2{
+        position: absolute;
+        width: 320px;
+        height: 125px;
+        left: 30px;
+        top: 1400px;
+        font-family: Avenir LT Std;
+        font-style: normal;
+        font-weight: 0;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .shop-icon-2 {
+        position: absolute;
+        width: 100px;
+        height: 32px;
+        left: 130px;
+        top: 1780px;
+        font-family: Avenir LT Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        color: #D4AC3E;
+    }
+
+
+    
+.image-container-3 {
+    position: absolute;
+    width: 280px;
+    height: 302px;
+    left: 80px;
+    top: 900px;
+}
+
+.image-heading-3 {
+    position: absolute;
+    width: 300px;
+    height: 67px;
+    left: 50px;
+    top: 1500px;
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    color: #D4AC3E;
+}
+
+.image-text-3{
+    position: absolute;
+    width: 301px;
+    height: 125px;
+    left: 50px;
+    top: 1590px;
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: 0;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.shop-icon-0 {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    left: 50px;
+    top: 1900px;
+    font-size: 30px;
+    color: #D4AC3E;
+}
+
+
+
+
+.butters-image {
+    position: absolute;
+    width: 280px;
+    height: 302px;
+    left: -30px;
+    top: 900px;
+}
+
+.butters-heading {
+    position: absolute;
+    width: 300px;
+    height: 67px;
+    left: 30px;
+    top: 1150px;
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    color: #D4AC3E;
+}
+
+.butters-text{
+    position: absolute;
+    width: 301px;
+    height: 125px;
+    left: 30px;
+    top: 1300px;
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: 0;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.shop-icon-butters {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    left: 90px;
+    top: 1700px;
+    font-size: 30px;
+    color: #D4AC3E;
+}
     .container {
         position: absolute;
         width: 200px;
@@ -542,4 +681,151 @@
         text-align: center;
         color: #FFFFFF;
     }
+
+    .image-bg{
+    position: absolute;
+    left: 0;
+    width: 334px;
+    height: 600px;
+    left: 0px;
+    top: 152px;
+    background-color: #F2F2F2;
+    
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 300px;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 80px;
+    }
+    
+    .sidebar a {
+        padding: 16px 16px 16px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color:#ffffff;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+    }
+    
+    .sidebar a:hover {
+        color:#A7872F;
+    }
+    
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-right: 50px;
+    }
+    
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        border: none;
+        float: right;
+        width: inherit;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 300px;
+        top: 10px;
+        background-color: white;
+      }
+    
+    .openbtn:hover {
+        background-color: #444;
+    }
+
+
+
+.hotel-heading{
+    position: absolute;
+    width: 227px;
+    height: 38px;
+    left: 100px;
+    top: 627px;
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    }
+    
+    .hotel-text{
+    position: absolute;
+    width: 300px;
+    height: 203px;
+    left: 50px;
+    top: 693px;
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    }
+    
+    .details-container-hotel{
+    position: absolute;
+    width: 300px;
+    height: 727px;
+    left: 50px;
+    top: 1200px;
+    }
+    
+    .heading-2 {
+        position: absolute;
+        width: 186px;
+        height: 38px;
+        left: 100px;
+        top: 900px;
+        font-family: Avenir LT Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+        color: #000000;
+    }
+    
+    .details-container {
+        position: absolute;
+        width: 300px;
+        height: 104px;
+        left: 50px;
+        top: 1000px;
+        padding: 10px;
+    }
+    
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        box-sizing: border-box;
+        border: 1px solid #C4C4C4;
+        background: #ffffff;
+    }
+    
+    button {
+        background-color: #A7872F;
+        border-radius: 10px;
+        padding: 14px 20px;
+        width: 100%;
+        color: white;
+        margin: 8px 0;
+    }
+    
+    
 }
